@@ -36,7 +36,7 @@ export const HomePage = () => {
 
 const DuplicateTodoList = () => {
 
-    //pulls query
+    //pulls from cache
     const queryClient = useQueryClient();
     const data = queryClient.getQueryData(["todos"])
     
